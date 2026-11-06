@@ -3,4 +3,4 @@ exam2 = float(imput("Enter second exam score:  "))
 
 total = (exam1 * 0.60) + (exam2 * 0.4)
 
-print(Total score:", total)
+print("Total score:", total)
