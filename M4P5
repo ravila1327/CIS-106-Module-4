@@ -1,7 +1,9 @@
-fixed_costs = float(input("Enter fixed costs: "))
-price_per_unit = float(input("Enter price per unit: "))
-cost_per_unit = float(input("Enter cost per unit: "))
-
-break_even = fixed_costs / (price_per_unit - cost_per_unit)
-
-print("Break-even point:", break_even, "units")
+print("enter fixed cost")
+fixedCost = float(input())
+print("Enter price per unit")
+pricePerUnit = float(input())
+print("enter cost per unit")
+costPerUnit = float(input())
+breakEven = fixedCost / pricePerUnit - costPerUnit
+print("break even point:")
+print(breakEven)
