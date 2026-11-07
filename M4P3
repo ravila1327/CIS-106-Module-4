@@ -1,20 +1,17 @@
 total = float(input("Enter meal total: "))
 
-# 15% Tip
 tip = total * 0.15
 print("\nWith 15% Tip:")
 print("Total:          ", format(total, ".2f"))
 print("Tip:            ", format(tip, ".2f"))
 print("Total with Tip: ", format(total + tip, ".2f"))
 
-# 18% Tip
 tip = total * 0.18
 print("\nWith 18% Tip:")
 print("Total:          ", format(total, ".2f"))
 print("Tip:            ", format(tip, ".2f"))
 print("Total with Tip: ", format(total + tip, ".2f"))
 
-# 20% Tip
 tip = total * 0.20
 print("\nWith 20% Tip:")
 print("Total:          ", format(total, ".2f"))
