@@ -1,7 +1,8 @@
-purchase_price = float(input("Enter purchase price per share: "))
-current_price = float(input("Enter current stock price: "))
-quantity = int(input("Enter quantity of shares: "))
-
-value = (current_price - purchase_price) * quantity
-
-print("Increase or decrease in stock value:", value)
+print("enter purchase price")
+purchasePrice = float(input())
+print("enter current stock price")
+currentPrice = float(input())
+print("enter quantity")
+quantity = int(input())
+value = currentPrice - purchasePrice * quantity
+print(value)
