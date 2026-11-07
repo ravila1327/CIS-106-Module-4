@@ -1,6 +1,6 @@
-exam1 = float(input("Enter first exam score: "))
-exam2 = float(input("Enter second exam score: "))
-
-total = (exam1 * 0.60) + (exam2 * 0.40)
-
-print("Total score:", total)
+print("enter first exam score")
+exam1 = float(input())
+print("enter second exam score")
+exam2 = float(input())
+total = exam1 * 0.6 + exam2 * 0.4
+print(total)
