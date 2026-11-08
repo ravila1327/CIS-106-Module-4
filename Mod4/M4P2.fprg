@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M4P2"/>
+        <attribute name="authors" value="rafae"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-07 01:56:19 PM"/>
+        <attribute name="created" value="cmFmYWU7UkFGQTsyMDI2LTExLTA3OzAxOjM1OjE4IFBNOzIwNzQ="/>
+        <attribute name="edited" value="cmFmYWU7UkFGQTsyMDI2LTExLTA3OzAxOjU2OjE5IFBNOzE7MjE4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PurchasePrice" type="Real" array="False" size=""/>
+            <declare name="CurrentPrice" type="Real" array="False" size=""/>
+            <declare name="Quantity" type="Integer" array="False" size=""/>
+            <declare name="Value" type="Real" array="False" size=""/>
+            <output expression="&quot;enter purchase price&quot;" newline="True"/>
+            <input variable="PurchasePrice"/>
+            <output expression="&quot;enter current stock price&quot;" newline="True"/>
+            <input variable="CurrentPrice"/>
+            <output expression="&quot;enter quantity&quot;" newline="True"/>
+            <input variable="Quantity"/>
+            <assign variable="Value" expression="(CurrentPrice - PurchasePrice) * Quantity"/>
+            <output expression="Value" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

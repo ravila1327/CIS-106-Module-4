@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M4P5"/>
+        <attribute name="authors" value="rafae"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-07 02:55:31 PM"/>
+        <attribute name="created" value="cmFmYWU7UkFGQTsyMDI2LTExLTA3OzAyOjMzOjQ4IFBNOzIwNzY="/>
+        <attribute name="edited" value="cmFmYWU7UkFGQTsyMDI2LTExLTA3OzAyOjU1OjMxIFBNOzE7MjE4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fixedCost" type="Real" array="False" size=""/>
+            <declare name="pricePerUnit" type="Real" array="False" size=""/>
+            <declare name="costPerUnit" type="Real" array="False" size=""/>
+            <declare name="breakEven" type="Real" array="False" size=""/>
+            <output expression="&quot;enter fixed cost&quot;" newline="True"/>
+            <input variable="fixedCost"/>
+            <output expression="&quot;Enter price per unit&quot;" newline="True"/>
+            <input variable="pricePerUnit"/>
+            <output expression="&quot;enter cost per unit&quot;" newline="True"/>
+            <input variable="costPerUnit"/>
+            <assign variable="breakEven" expression="fixedCost / (pricePerUnit - costPerUnit)"/>
+            <output expression="&quot;break even point:&quot;" newline="True"/>
+            <output expression="breakEven" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
